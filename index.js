@@ -6,7 +6,7 @@ function destructivelyAppendDriver(name) {
 }
 
 function destructivelyPrependDriver(name) {
-  let moreDrivers = drivers.unshift(name);
+  drivers.unshift(name);
 }
 
 function destructivelyRemoveLastDriver() {
